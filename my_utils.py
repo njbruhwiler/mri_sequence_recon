@@ -1,3 +1,5 @@
+# Useful functions
+
 def str_to_float(string):
     # Takes a parameter from TNMR as a string and converts it to a float
     if string.endswith("s"):
@@ -9,3 +11,12 @@ def str_to_float(string):
     elif string.endswith("n"):
         num = float(string[:-1])/(10**9)
     return num
+
+
+
+
+
+
+
+
+
